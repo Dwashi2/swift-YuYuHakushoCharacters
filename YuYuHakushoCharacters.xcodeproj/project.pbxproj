@@ -13,6 +13,9 @@
 		56512D8A2696809600F3DAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56512D882696809600F3DAEC /* Main.storyboard */; };
 		56512D8C2696809800F3DAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56512D8B2696809800F3DAEC /* Assets.xcassets */; };
 		56512D8F2696809800F3DAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56512D8D2696809800F3DAEC /* LaunchScreen.storyboard */; };
+		56512D99269681BC00F3DAEC /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56512D98269681BC00F3DAEC /* Characters.swift */; };
+		5675A3AC26972C1E002FC8DB /* CustomCellCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675A3AA26972C1E002FC8DB /* CustomCellCharacter.swift */; };
+		5675A3AD26972C1E002FC8DB /* CustomCellCharacter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5675A3AB26972C1E002FC8DB /* CustomCellCharacter.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		56512D8B2696809800F3DAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56512D8E2696809800F3DAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56512D902696809800F3DAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56512D98269681BC00F3DAEC /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		5675A3AA26972C1E002FC8DB /* CustomCellCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellCharacter.swift; sourceTree = "<group>"; };
+		5675A3AB26972C1E002FC8DB /* CustomCellCharacter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellCharacter.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 			children = (
 				56512D822696809600F3DAEC /* AppDelegate.swift */,
 				56512D842696809600F3DAEC /* SceneDelegate.swift */,
+				5675A3A926972BC3002FC8DB /* CustomCellCharacter */,
+				56512D97269681A200F3DAEC /* ClassCharacter */,
 				56512D862696809600F3DAEC /* ViewController.swift */,
 				56512D882696809600F3DAEC /* Main.storyboard */,
 				56512D8B2696809800F3DAEC /* Assets.xcassets */,
@@ -65,6 +73,23 @@
 				56512D902696809800F3DAEC /* Info.plist */,
 			);
 			path = YuYuHakushoCharacters;
+			sourceTree = "<group>";
+		};
+		56512D97269681A200F3DAEC /* ClassCharacter */ = {
+			isa = PBXGroup;
+			children = (
+				56512D98269681BC00F3DAEC /* Characters.swift */,
+			);
+			path = ClassCharacter;
+			sourceTree = "<group>";
+		};
+		5675A3A926972BC3002FC8DB /* CustomCellCharacter */ = {
+			isa = PBXGroup;
+			children = (
+				5675A3AA26972C1E002FC8DB /* CustomCellCharacter.swift */,
+				5675A3AB26972C1E002FC8DB /* CustomCellCharacter.xib */,
+			);
+			path = CustomCellCharacter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5675A3AD26972C1E002FC8DB /* CustomCellCharacter.xib in Resources */,
 				56512D8F2696809800F3DAEC /* LaunchScreen.storyboard in Resources */,
 				56512D8C2696809800F3DAEC /* Assets.xcassets in Resources */,
 				56512D8A2696809600F3DAEC /* Main.storyboard in Resources */,
@@ -140,6 +166,8 @@
 				56512D872696809600F3DAEC /* ViewController.swift in Sources */,
 				56512D832696809600F3DAEC /* AppDelegate.swift in Sources */,
 				56512D852696809600F3DAEC /* SceneDelegate.swift in Sources */,
+				5675A3AC26972C1E002FC8DB /* CustomCellCharacter.swift in Sources */,
+				56512D99269681BC00F3DAEC /* Characters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
