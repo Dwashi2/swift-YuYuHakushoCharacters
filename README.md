@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p float="left">
-  <img src="https://github.com/Dwashi2/swift-TableViewAndCell/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2012%20mini%20-%202021-07-07%20at%2020.50.39.png" width="248">
+  <img src="https://github.com/Dwashi2/swift-YuYuHakushoCharacters/blob/main/1.png" width="248">
 </p>
  
  
